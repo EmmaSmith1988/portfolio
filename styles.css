@@ -145,14 +145,28 @@ body {
 .skills__line {
   padding: 0 20px;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .skills__para {
-  margin-bottom: 20px;
+  margin: 20px 0;
+}
+.skills__flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 20px auto 40px auto;
+  justify-content: center;
 }
 .skills__logo {
   height: 50px;
+  margin: 10px;
 }
-.skills__grid {
-  display: grid;
+.skills__list {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills__item {
+  margin: 5px 30px;
 }
