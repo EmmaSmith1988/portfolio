@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
   color: #8f3aa9;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -26,8 +26,8 @@ body {
   display: none;
 }
 .navbar__title {
-  font-size: 35px;
-  padding-left: 20px;
+  font-size: 30px;
+  padding-left: 10px;
 }
 .navbar__hamburger {
   height: 80%;
@@ -54,7 +54,7 @@ body {
 .intro__para {
   width: 80%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .projects {
@@ -70,9 +70,9 @@ body {
 .projects__line {
   padding: 0 20px;
   width: 100%;
+  margin-bottom: 40px;
 }
 .projects__example {
-  margin: 50px 0;
   width: 250px;
   border-radius: 30px;
 }
@@ -93,10 +93,11 @@ body {
   padding: 15px;
   background-color: #66FEF7;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .experience {
-  height: 90vh;
+  height: 80vh;
   text-align: center;
   padding-top: 20px;
 }
@@ -108,4 +109,50 @@ body {
 .experience__line {
   padding: 0 20px;
   width: 100%;
+  margin-bottom: 40px;
+}
+.experience__triangle1 {
+  height: 30px;
+}
+.experience__triangle2 {
+  height: 30px;
+}
+.experience__logo {
+  width: 250px;
+}
+.experience__para {
+  margin: 50px 20px;
+}
+.experience__link {
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.skills {
+  height: 80vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.skills__heading {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 40px;
+}
+.skills__line {
+  padding: 0 20px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.skills__para {
+  margin-bottom: 20px;
+}
+.skills__logo {
+  height: 50px;
+}
+.skills__grid {
+  display: grid;
 }
