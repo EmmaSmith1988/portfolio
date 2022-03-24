@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  color: #8f3aa9;
+  font-size: 16px;
 }
 
 body {
@@ -12,4 +16,70 @@ body {
   background-image: url(/images/navbar.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar__list {
+  display: none;
+}
+.navbar__title {
+  font-size: 35px;
+  padding-left: 20px;
+}
+.navbar__hamburger {
+  height: 80%;
+}
+.navbar__hamburgerlogo {
+  height: 100%;
+}
+
+.intro {
+  height: 70vh;
+  padding-top: 80px;
+  text-align: center;
+}
+.intro__photo {
+  height: 40%;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+}
+.intro__heading {
+  margin: 15px;
+  font-size: 25px;
+}
+.intro__para {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.projects {
+  border: 2px solid orange;
+  height: 80vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.projects__heading {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 40px;
+}
+.projects__line {
+  padding: 0 20px;
+  width: 100%;
+}
+.projects__example {
+  margin: 20px 0;
+  height: 50%;
+  border-radius: 30px;
+}
+.projects__triangle1 {
+  height: 40px;
+}
+.projects__triangle2 {
+  height: 40px;
 }
