@@ -101,6 +101,9 @@ body {
   text-align: center;
   padding-top: 20px;
 }
+.experience__extra {
+  display: none;
+}
 .experience__heading {
   font-size: 25px;
   text-align: left;
@@ -133,7 +136,7 @@ body {
 }
 
 .skills {
-  height: 80vh;
+  height: 90vh;
   text-align: center;
   padding-top: 20px;
 }
@@ -149,6 +152,7 @@ body {
 }
 .skills__para {
   margin: 20px 0;
+  font-size: 17px;
 }
 .skills__flex {
   display: flex;
@@ -162,10 +166,11 @@ body {
   margin: 10px;
 }
 .skills__list {
-  width: 50%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .skills__item {
   margin: 5px 30px;
