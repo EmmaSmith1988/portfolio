@@ -37,7 +37,7 @@ body {
 }
 
 .intro {
-  height: 70vh;
+  height: 80vh;
   padding-top: 80px;
   text-align: center;
 }
@@ -58,8 +58,7 @@ body {
 }
 
 .projects {
-  border: 2px solid orange;
-  height: 80vh;
+  height: 90vh;
   text-align: center;
   padding-top: 20px;
 }
@@ -73,13 +72,40 @@ body {
   width: 100%;
 }
 .projects__example {
-  margin: 20px 0;
-  height: 50%;
+  margin: 50px 0;
+  width: 250px;
   border-radius: 30px;
 }
 .projects__triangle1 {
-  height: 40px;
+  height: 30px;
 }
 .projects__triangle2 {
-  height: 40px;
+  height: 30px;
+}
+.projects__para {
+  margin: 30px auto;
+  width: 85%;
+  padding-bottom: 30px;
+}
+.projects__link {
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+}
+
+.experience {
+  height: 90vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.experience__heading {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 40px;
+}
+.experience__line {
+  padding: 0 20px;
+  width: 100%;
 }
