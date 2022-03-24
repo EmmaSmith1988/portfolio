@@ -170,3 +170,65 @@ body {
 .skills__item {
   margin: 5px 30px;
 }
+
+.about {
+  height: 80vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.about__heading {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 40px;
+}
+.about__line {
+  padding: 0 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.about__para {
+  width: 70%;
+  margin: 20px auto 20px auto;
+}
+.about__buttons {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-areas: "github email" "connect cv";
+}
+.about__link1 {
+  grid-area: github;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+  font-size: 15px;
+}
+.about__link2 {
+  grid-area: email;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+  font-size: 15px;
+}
+.about__link3 {
+  grid-area: connect;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+  font-size: 15px;
+}
+.about__link4 {
+  grid-area: cv;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+  font-size: 15px;
+}
