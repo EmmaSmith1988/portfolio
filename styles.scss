@@ -354,6 +354,9 @@ body {
 
   .projects {
     height: 100vh;
+    &__heading {
+      font-size: 35px;
+    }
 
     &__example {
       width: 500px;
@@ -377,6 +380,9 @@ body {
 
   .experience {
     height: 130vh;
+    &__heading {
+      font-size: 35px;
+    }
   
     &__extra {
       display: block;
@@ -412,6 +418,9 @@ body {
   }
 
   .skills {
+    &__heading {
+      font-size: 35px;
+    }
     &__para {
       font-size: 20px;
       margin: 50px 0;
@@ -426,6 +435,9 @@ body {
 
   .about {
     height: 90vh;
+    &__heading {
+      font-size: 35px;
+    }
     &__para {
       font-size: 20px;
       margin: 50px auto;
