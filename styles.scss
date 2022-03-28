@@ -53,6 +53,7 @@ body {
     display: block;
     margin: auto;
     border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px gray;
   }
 
   &__heading {
@@ -87,14 +88,23 @@ body {
   &__example {
     width: 250px;
     border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px gray;
+  }
+
+  &__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__triangle1 {
     height: 30px;
+    margin-right:10px;
   }
 
   &__triangle2 {
     height: 30px;
+    margin-left: 10px;
   }
 
   &__para {
@@ -110,6 +120,7 @@ body {
     background-color: #66FEF7;
     text-decoration: none;
     font-size: 18px;
+    box-shadow: 2px 2px 5px 1px gray;
    
   }
 }
@@ -134,14 +145,21 @@ body {
     width: 100%;
     margin-bottom: 40px;
   }
-
+  
+  &__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   &__triangle1 {
     height: 30px;
+    margin-right: 10px;
   }
 
   &__triangle2 {
     height: 30px;
+    margin-left: 10px;
   }
 
   &__logo {
@@ -159,6 +177,7 @@ body {
     background-color: #66FEF7;
     text-decoration: none;
     font-size: 18px;
+    box-shadow: 2px 2px 5px 1px gray;
   }
 }
 
@@ -233,49 +252,33 @@ body {
   }
 
   &__buttons{
-    width: 80%;
+    width: 90%;
     margin: auto;
-    display: grid;
-    grid-template-areas:
-    "github email"
-    "connect cv";
-  }
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
 
-  &__link1 {
-    grid-area: github;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 15px;
-    background-color: #66FEF7;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  &__link2 {
-    grid-area: email;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 15px;
-    background-color: #66FEF7;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  &__link3 {
-    grid-area: connect;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 15px;
-    background-color: #66FEF7;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  &__link4 {
-    grid-area: cv;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 15px;
-    background-color: #66FEF7;
-    text-decoration: none;
-    font-size: 15px;
-  }
+    img {
+      width: 70px;
+      height: 70px;
+    }
 
+    .about__cv {
+      height: 70px;
+      width: 60px;
+    }
+
+    .about__email {
+      width: 70px;
+      height: 70px;
+    }
+
+  }
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
