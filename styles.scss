@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 
+$primary-color: #8f3aa9;
+$secondary-color: #66FEF7;
+$background-color: #FFEEF6;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Barlow', sans-serif;
-  color: #8f3aa9;
+  color: $primary-color;
   font-size: 14px;
 }
 
 body {
-  background-color: #FFEEF6;
+  background-color: $background-color;
 }
 
 .navbar {
@@ -121,7 +125,7 @@ body {
     border-radius: 25px;
     margin: 20px;
     padding: 15px;
-    background-color: #66FEF7;
+    background-color: $secondary-color;
     text-decoration: none;
     font-size: 18px;
     box-shadow: 2px 2px 5px 1px gray;
@@ -178,7 +182,7 @@ body {
     border-radius: 25px;
     margin: 20px;
     padding: 15px;
-    background-color: #66FEF7;
+    background-color: $secondary-color;
     text-decoration: none;
     font-size: 18px;
     box-shadow: 2px 2px 5px 1px gray;
@@ -289,7 +293,7 @@ body {
     border-radius: 25px;
     margin: 20px;
     padding: 15px;
-    background-color: #66FEF7;
+    background-color: $secondary-color;
     text-decoration: none;
     font-size: 14px;
     box-shadow: 2px 2px 5px 1px gray;
@@ -332,7 +336,7 @@ body {
       border-radius: 25px;
       margin: 20px auto;
       padding: 15px;
-      background-color: #66FEF7;
+      background-color: $secondary-color;
       text-decoration: none;
       font-size: 18px;
       box-shadow: 2px 2px 5px 1px gray;
