@@ -198,7 +198,7 @@ body {
 }
 
 .about {
-  height: 80vh;
+  height: 70vh;
   text-align: center;
   padding-top: 20px;
 }
@@ -242,6 +242,16 @@ body {
   justify-content: end;
   align-items: center;
 }
+.footer__link {
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #66FEF7;
+  text-decoration: none;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px 1px gray;
+  width: 100px;
+}
 
 @media screen and (min-width: 768px) {
   .navbar__hamburger {
@@ -283,6 +293,12 @@ body {
   .intro__photo {
     height: 60%;
   }
+  .intro__para {
+    font-size: 20px;
+  }
+  .intro__heading {
+    font-size: 30px;
+  }
 
   .projects {
     height: 100vh;
@@ -301,5 +317,64 @@ body {
   }
   .projects__para {
     width: 500px;
+    font-size: 20px;
+  }
+
+  .experience {
+    height: 130vh;
+  }
+  .experience__extra {
+    display: block;
+  }
+  .experience__triangle1 {
+    display: none;
+  }
+  .experience__triangle2 {
+    display: none;
+  }
+  .experience__lloyds {
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+  }
+  .experience__anixter {
+    display: flex;
+    align-items: center;
+    margin: 20px 100px 50px;
+  }
+  .experience__nology {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px 100px;
+  }
+  .experience__logo {
+    height: 130px;
+  }
+  .experience__para {
+    font-size: 20px;
+  }
+
+  .skills__para {
+    font-size: 20px;
+    margin: 50px 0;
+  }
+  .skills__item {
+    font-size: 18px;
+  }
+  .skills__list {
+    width: 500px;
+  }
+
+  .about {
+    height: 90vh;
+  }
+  .about__para {
+    font-size: 20px;
+    margin: 50px auto;
+    width: 600px;
+  }
+  .about__buttons {
+    width: 50%;
   }
 }
