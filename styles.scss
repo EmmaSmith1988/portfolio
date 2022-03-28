@@ -66,6 +66,10 @@ body {
     margin: auto;
     padding-top: 10px;
   }
+
+  &__link {
+    display: none;
+  }
 }
 
 .projects {
@@ -281,4 +285,81 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+
+
+  .navbar {
+
+    &__hamburger {
+      display: none;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      width: 40vw;
+      list-style-type: none;
+      text-decoration: none;
+    }
+
+    &__item {
+      font-size: 18px;
+    }
+  }
+
+  .intro {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    height: 80vh;
+
+    &__link {
+      display: block;
+      border-radius: 25px;
+      margin: 20px auto;
+      padding: 15px;
+      background-color: #66FEF7;
+      text-decoration: none;
+      font-size: 18px;
+      box-shadow: 2px 2px 5px 1px gray;
+      width: 200px;
+
+    }
+
+    &__right {
+      width: 50%;
+    }
+
+    &__photo {
+      height: 60%;
+    }
+  }
+
+  .projects {
+    height: 100vh;
+
+    &__example {
+      width: 500px;
+      border-radius: 50px;
+    }
+    &__triangle1 {
+      height: 80px;
+      margin-right:20px;
+    }
+  
+    &__triangle2 {
+      height: 80px;
+      margin-left: 20px;
+    }
+
+    &__para {
+      width: 500px;
+    }
+  }
+
+
 }

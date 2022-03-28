@@ -57,6 +57,9 @@ body {
   margin: auto;
   padding-top: 10px;
 }
+.intro__link {
+  display: none;
+}
 
 .projects {
   height: 90vh;
@@ -238,4 +241,65 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar__hamburger {
+    display: none;
+  }
+  .navbar__list {
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .navbar__item {
+    font-size: 18px;
+  }
+
+  .intro {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    height: 80vh;
+  }
+  .intro__link {
+    display: block;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #66FEF7;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px 1px gray;
+    width: 200px;
+  }
+  .intro__right {
+    width: 50%;
+  }
+  .intro__photo {
+    height: 60%;
+  }
+
+  .projects {
+    height: 100vh;
+  }
+  .projects__example {
+    width: 500px;
+    border-radius: 50px;
+  }
+  .projects__triangle1 {
+    height: 80px;
+    margin-right: 20px;
+  }
+  .projects__triangle2 {
+    height: 80px;
+    margin-left: 20px;
+  }
+  .projects__para {
+    width: 500px;
+  }
 }
