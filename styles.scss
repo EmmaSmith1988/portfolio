@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Barlow', sans-serif;
   color: #8f3aa9;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 body {
@@ -90,8 +90,8 @@ body {
   }
 
   &__example {
-    width: 250px;
-    border-radius: 30px;
+    width: 170px;
+    border-radius: 15px;
     box-shadow: 2px 2px 5px 2px gray;
   }
 
@@ -342,25 +342,25 @@ body {
       width: 50%;
     }
     &__photo {
-      height: 60%;
+      height: 80%;
     }
     &__para {
-      font-size: 20px;
+      font-size: 15px;
     }
     &__heading{
-      font-size: 30px;
+      font-size: 25px;
     }
   }
 
   .projects {
-    height: 100vh;
+    height: 120vh;
     &__heading {
-      font-size: 35px;
+      font-size: 25px;
     }
 
     &__example {
       width: 500px;
-      border-radius: 50px;
+      border-radius: 20px;
     }
     &__triangle1 {
       height: 80px;

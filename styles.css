@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
   color: #8f3aa9;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 body {
@@ -77,8 +77,8 @@ body {
   margin-bottom: 40px;
 }
 .projects__example {
-  width: 250px;
-  border-radius: 30px;
+  width: 170px;
+  border-radius: 15px;
   box-shadow: 2px 2px 5px 2px gray;
 }
 .projects__div {
@@ -291,24 +291,24 @@ body {
     width: 50%;
   }
   .intro__photo {
-    height: 60%;
+    height: 80%;
   }
   .intro__para {
-    font-size: 20px;
+    font-size: 15px;
   }
   .intro__heading {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .projects {
-    height: 100vh;
+    height: 120vh;
   }
   .projects__heading {
-    font-size: 35px;
+    font-size: 25px;
   }
   .projects__example {
     width: 500px;
-    border-radius: 50px;
+    border-radius: 20px;
   }
   .projects__triangle1 {
     height: 80px;
